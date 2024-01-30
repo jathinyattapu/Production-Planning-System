@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Production.master.cs" Inherits="Production_Planning_System.Production.Production" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Production Planning</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Production Planning System">
+    <meta name="author" content="Yattapu Jathin Kumar Reddy">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="header">
+  <h1>Production Planning System</h1>
+  </div>
+  
+    <div class="navbar">
+  <a href="Production.aspx">Home</a>
+  <a href="../Manpower/MP.aspx">Manpower</a>
+  <a href="PStockview.aspx">Stock</a>
+  <a href="../Home.aspx" class="right">Logout</a>
+</div>
+       <div class="info"><p><strong>Welcome,</strong><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></p></div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
