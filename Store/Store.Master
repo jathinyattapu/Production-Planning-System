@@ -20,10 +20,11 @@
   
     <div class="navbar">
           <a href="Store.aspx">Home</a>
-        <a href="Add.aspx">Add Stock</a>
-        <a href="Viewstock.aspx">Viewstock.aspx</a>
-
-          <a href="Home.aspx" class="right">Logout</a>
+          <a href="Viewstock.aspx">Viewstock</a>
+          <a href="StockAdd.aspx">StockAdd</a>
+          <a href="updatestock.aspx">updatestock</a>
+          <a href="assignstock.aspx">assignstock.aspx</a>
+          <a href="../Home.aspx" class="right">Logout</a>
    </div>
     <form id="form1" runat="server">
         <div>

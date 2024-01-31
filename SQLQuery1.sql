@@ -34,3 +34,13 @@ update manpower set Name=@b,Trade=@c,Grade=@d,Section=@e,[Date of Joining]=@f,Ph
 
 select count(Trade) from manpower where trade='supervisor'
 
+select * from material
+create table material(mid varchar(10) primary key,mname varchar(30),mdes varchar(50),loc varchar(5),uom varchar(5),qty varchar(10))
+
+create proc proc_procmtladd(@a varchar(10),@b varchar(30),@c varchar(50),@d varchar(5),@e varchar(5),@f varchar(10))
+as begin insert into material values(@a,@b,@c,@d,@e,@f) end
+
+create proc proc_mtldelete(@a varchar(15)) as begin delete from material where mid=@a end;
+
+create proc proc_mtlupdate(@a varchar(10),@b varchar(30),@c varchar(50),@d varchar(5),@e varchar(5),@f varchar(10))
+as begin update material set mname=@b,mdes=@c,loc=@d,uom=@e,qty=@f where mid=@a end
