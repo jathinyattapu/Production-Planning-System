@@ -1,18 +1,22 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Store/Store.Master" AutoEventWireup="true" CodeBehind="updatestock.aspx.cs" Inherits="Production_Planning_System.Store.updatestock" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .column {
+        .rightcolumn {
           float: right;
-          width: 95%;
+          width: 25%;
+        }
+        .leftcolumn {
+          float: left;
+          width: 75%;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
-    <div class="column">
+    <div class="leftcolumn">
         <table style="background-color:khaki;">
             <tr>
-                <td class="auto-style2"><b>User ID: </b></td>
+                <td class="auto-style2"><b>Material ID: </b></td>
                 <td>
                 <asp:TextBox ID="TextBox1" runat="server" Width="200px"></asp:TextBox>                
                 </td>

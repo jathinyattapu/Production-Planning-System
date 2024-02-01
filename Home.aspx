@@ -10,6 +10,26 @@
     <meta name="description" content="Production Planning System" />
     <meta name="author" content="Yattapu Jathin Kumar Reddy" />
     <link href="css/home.css" rel="stylesheet" />
+    <style>
+        table.table1 {
+            table-layout: auto;
+            width: auto;
+        }
+
+        table.table1 td, th {
+            border: 1px solid;
+            text-align: left;
+            padding: 5px;
+        }
+
+        table.table1 tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        .auto-style1 {
+            margin-left: 40px;
+        }
+    </style>
 </head>
 <body>
     <!-- Menu -->
@@ -21,12 +41,9 @@
 <!-- Body -->
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
+      <div class="card">
     </div>
-    <div class="card">
-      
-    </div>
-  </div>
+ </div>
   <div class="rightcolumn">
     <div class="card">
         <div class="container" align="center">
@@ -48,15 +65,116 @@
           </div>
     </div>
     <div class="card">
-      
+      <table class="table1">
+            <tr>
+                <td><strong>Total Manpower</strong></td>
+                <td>
+                    <strong>
+                    <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Welder&#39;s</strong></td>
+                <td>
+                    <strong>
+                    <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Fitter&#39;s</strong></td>
+                <td>
+                    <strong>
+                    <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Operator&#39;s</strong></td>
+                <td>
+                    <strong>
+                    <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Fabricator&#39;s</strong></td>
+                <td>
+                    <strong>
+                    <asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Helper&#39;s</strong></td>
+                <td class="auto-style1">
+                    <strong>
+                    <asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Supervisor&#39;s</strong></td>
+                <td class="auto-style1">
+                    <strong>
+                    <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+        </table>
     </div>
     <div class="card">
+        <table class="table1">
+            <tr>
+                <td><strong>Total Weight</strong></td>
+                <td><strong>
+                    <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Channel</strong></td>
+                <td><strong>
+                    <asp:Label ID="Label22" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Flat</strong></td>
+                <td><strong>
+                    <asp:Label ID="Label23" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Pipe</strong></td>
+                <td><strong>
+                    <asp:Label ID="Label24" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Angle</strong></td>
+                <td><strong>
+                    <asp:Label ID="Label25" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Sheet</strong></td>
+                <td class="auto-style1"><strong>
+                    <asp:Label ID="Label26" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td><strong>MS Rod</strong></td>
+                <td class="auto-style1"><strong>
+                    <asp:Label ID="Label27" runat="server" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+        </table>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+Production Planning System || Designed By: Jathin
 </div>
 
 </body>

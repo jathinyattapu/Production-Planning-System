@@ -19,9 +19,9 @@
   </div>
   
     <div class="navbar">
-  <a href="Production.aspx">Home</a>
+  <a href="../Production/Production.aspx">Home</a>
   <a href="../Manpower/MP.aspx">Manpower</a>
-  <a href="PStockview.aspx">Stock</a>
+  <a href="../Production/PStockview.aspx">Stock</a>
   <a href="../Home.aspx" class="right">Logout</a>
 </div>
        <div class="info"><p><strong>Welcome,</strong><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></p></div>

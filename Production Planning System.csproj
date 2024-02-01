@@ -83,7 +83,6 @@
     <Content Include="Production\Production.aspx" />
     <Content Include="Production\PStockview.aspx" />
     <Content Include="Production\StyleSheet1.css" />
-    <Content Include="Store\assignstock.aspx" />
     <Content Include="Store\StockAdd.aspx" />
     <Content Include="Store\Store.aspx" />
     <Content Include="Store\StyleSheet1.css" />
@@ -194,13 +193,6 @@
       <DependentUpon>PStockview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Store\assignstock.aspx.cs">
-      <DependentUpon>assignstock.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Store\assignstock.aspx.designer.cs">
-      <DependentUpon>assignstock.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Store\StockAdd.aspx.cs">
       <DependentUpon>StockAdd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -252,6 +244,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
     <Folder Include="Js\" />
     <Folder Include="Models\" />
   </ItemGroup>
